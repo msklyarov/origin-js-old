@@ -31,6 +31,12 @@ class Listings extends ResourceBase{
       category: ipfsData.data.category,
       description: ipfsData.data.description,
       location: ipfsData.data.location,
+      // start of customizaion
+      weekDayFrom: ipfsData.data.weekDayFrom,
+      weekDayTo: ipfsData.data.weekDayTo,
+      dayHourFrom: ipfsData.data.dayHourFrom,
+      dayHourTo: ipfsData.data.dayHourTo,
+      // end of customizaion
       pictures: ipfsData.data.pictures
     }
 
@@ -50,6 +56,12 @@ class Listings extends ResourceBase{
       category: ipfsData.data.category,
       description: ipfsData.data.description,
       location: ipfsData.data.location,
+      // start of customizaion
+      weekDayFrom: ipfsData.data.weekDayFrom,
+      weekDayTo: ipfsData.data.weekDayTo,
+      dayHourFrom: ipfsData.data.dayHourFrom,
+      dayHourTo: ipfsData.data.dayHourTo,
+      // end of customizaion
       pictures: ipfsData.data.pictures,
 
       address: contractData.address,
